@@ -10,7 +10,7 @@
 
 ```bash
 # 1. Клонируем
-git clone https://github.com/YOUR-NICK/food-detection-yolov11.git && cd food-detection-yolov11
+git clone https://github.com/SavrOverSide/Zebra_test.git
 
 # 2. Виртуальное окружение
 python3 -m venv venv && source venv/bin/activate
@@ -18,10 +18,27 @@ python3 -m venv venv && source venv/bin/activate
 # 3. Установка зависимостей
 pip install -r requirements.txt
 
-# 5. Обучение лучшей конфигурации (exp00)
-make train
+# ВАЖНО. Скачиваем датасет по адресу:
+https://app.roboflow.com/project-w5hz4/zebra-testovoe/2
 
-# 6. Делаем инференс модели
+# ВАЖНО. Скачиваем веса по адресу:
+https://disk.yandex.ru/d/r_13ZeYk_PPTfg
+
+# Далее пункты 4-9 НЕОБЯЗАТЕЛЬНЫЕ!! Пункты 4-9 показывают как можно обработать датасет и подготовить данные для обученмя!
+
+# 4. Скачиваем видео тестовые из яндекс диска
+
+# 5. Запускаем скрипт extract_frames по разбиению видео на кадры
+
+# 6. Запускаем скрипт filter_frames для фильтра кадров на релевантные
+
+# 7.  (опционально) тестим модели из HF
+
+# 8. Обучаем модель Yolo11 нв получившемся датасете
+
+# 9. (опционально) использьуем гиперы для тюнинга модели
+
+# 10. Инференсим получившуюся модель :)
 ```
 
 ## 2. Структура репозитория
@@ -87,7 +104,6 @@ make train
 | Recall        | 1     |
 
 
-![mAP/loss](runs/exp02/results.png)
 
 ## 7. Трудозатраты и опыт
 
