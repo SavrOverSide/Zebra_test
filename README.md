@@ -104,4 +104,3 @@ https://disk.yandex.ru/d/r_13ZeYk_PPTfg
 | Отчёт + репо         | 0.8      |
 | **Итого**            | **4.0**  |
 
-*Опыт с YOLO: использую v5‑v8 два года (manufacturing QA, people‑count).*
