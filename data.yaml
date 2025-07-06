@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['lavash', 'myaso_grill', 'salad_grill', 'salad_ovosh', 'soup_2', 'soup_sir']
+
+roboflow:
+  workspace: project-w5hz4
+  project: zebra-testovoe
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-w5hz4/zebra-testovoe/dataset/2
