@@ -70,16 +70,6 @@ https://disk.yandex.ru/d/r_13ZeYk_PPTfg
 | `Makefile`                  | `make train` (YOLOv11s exp02), `make val`, `make demo`                           |
 | `hyp_v1.yaml`               | Конфиг гиперпараметров для exp01 (lr0 уменьшен, Mosaic 0.7, MixUp 0.2)           |
 
-## 4. Датасет (YOLO‑формат). Ключевые скрипты
-
-| скрипт                      | назначение                                           |
-| --------------------------- | ---------------------------------------------------- |
-| `scripts/extract_frames.sh` | разрезает видео в `videos/` на кадры (`dataset/raw`) |
-| `scripts/filter_frames.py`  | удаляет дубли и оставляет кадры с едой               |
-| `scripts/augment.py`        | copy‑paste / mosaic доп. аугментации                 |
-| `make train`                | `yolo train …` 60 эпох, exp02‑гиперы                 |
-| `make val`                  | валидирует веса `runs/exp02/best.pt`                 |
-| `make demo`                 | детекция на видео‑клипе с overlay                    |
 
 ## 4. Датасет (YOLO‑формат)
 
