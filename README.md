@@ -94,7 +94,7 @@ https://disk.yandex.ru/d/r_13ZeYk_PPTfg
 | Recall        | 1     |
 
 Демо здесь
-https://www.transferxl.com/download/08vPyhR07GsSbp
+[https://www.transferxl.com/download/08vPyhR07GsSbp](https://www.transferxl.com/download/08vPyhR07GsSbp)
 
 
 ## 7. Трудозатраты и опыт
